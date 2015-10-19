@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?2962572');
+  src: url('../font/fontello.eot?2962572#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?2962572') format('woff'),
+       url('../font/fontello.ttf?2962572') format('truetype'),
+       url('../font/fontello.svg?2962572#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.genericon-vk:before {
+font-family: "fontello";
+content: '\e800';
+
+} /* '' */
+
+.user-social-links .genericon.genericon-vk {
+    vertical-align: baseline;
+}
+
+.widget-account-info .genericon.genericon-vk {
+    vertical-align: baseline;
+    margin-right: 15px;
+}
